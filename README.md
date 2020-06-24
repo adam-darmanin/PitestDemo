@@ -50,9 +50,9 @@ profile `all` 16% coverage 29/179 @17.059s
 From this [research](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/46584.pdf) 
 google uses a standard of 4 mutators to verify a tests value. These are:
 * AOR Arithmetic operator replacement
-* LCR Logical connector replacement
+* LCR Logical connector replacement  - unavailable in PiTest.
 * ROR Relational operator replacement
 * UOI Unary operator insertion
-* SBR Statement block removal stmt
+* SBR Statement block removal stmt - unavailable in PiTest.
 
 12.868 s
